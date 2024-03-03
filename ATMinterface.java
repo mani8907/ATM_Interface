@@ -100,3 +100,8 @@ public class Main {
         atm.run();
     }
 }
+
+public interface ATMMachin{
+    int PinNumber;
+    String Status;
+}
